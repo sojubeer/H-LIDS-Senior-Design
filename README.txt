@@ -16,6 +16,10 @@ H-LIDS is a lightweight Intrusion Detection System that captures, processes, and
 - Evaluation plot generator (Matplotlib)
 
 ## Running the IDS
+In Ubuntu (WSL) navigate to the file path:
+/mnt/c/Users/"John Henry"/Documents/School/H-LIDS
+
+Start the program:
 sudo -E python3 ids.py --iface lo --window 2.0 --threshold 0.6
 
 
